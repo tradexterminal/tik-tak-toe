@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cell {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.x {
+    color: #000;
+    font-size: 48px;
+}
+
+.o {
+    color: #000;
+    font-size: 48px;
+}
+
+.game-over {
+    font-size: 36px;
+    margin-top: 20px;
+}
